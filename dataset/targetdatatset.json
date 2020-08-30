@@ -2,7 +2,7 @@
 	"name": "targetdatatset",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "targetdb",
+			"referenceName": "targetdatabasecopy",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -73,8 +73,8 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "SalesLT",
-			"table": "Customer"
+			"schema": "dbo",
+			"table": "foods"
 		}
 	}
 }
