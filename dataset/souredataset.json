@@ -2,7 +2,7 @@
 	"name": "souredataset",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "sourcedb",
+			"referenceName": "sourcedatabasecopy",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
