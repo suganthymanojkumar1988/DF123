@@ -83,7 +83,7 @@
 							{
 								"source": {
 									"name": "Salary",
-									"type": "Int16",
+									"type": "Int64",
 									"physicalType": "String"
 								},
 								"sink": {
