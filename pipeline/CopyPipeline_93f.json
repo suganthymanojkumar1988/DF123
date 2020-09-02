@@ -124,7 +124,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DestinationDataset_93f",
+						"referenceName": "targetdatatset",
 						"type": "DatasetReference"
 					}
 				]
