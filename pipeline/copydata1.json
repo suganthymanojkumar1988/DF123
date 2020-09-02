@@ -95,7 +95,7 @@
 							{
 								"source": {
 									"name": "Spend",
-									"type": "String",
+									"type": "Double",
 									"physicalType": "String"
 								},
 								"sink": {
