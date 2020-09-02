@@ -71,7 +71,7 @@
 							{
 								"source": {
 									"name": "LastLoginTime",
-									"type": "TimeSpan",
+									"type": "String",
 									"physicalType": "String"
 								},
 								"sink": {
@@ -83,7 +83,7 @@
 							{
 								"source": {
 									"name": "Salary",
-									"type": "String",
+									"type": "Int16",
 									"physicalType": "String"
 								},
 								"sink": {
@@ -95,7 +95,7 @@
 							{
 								"source": {
 									"name": "Bonus%",
-									"type": "String",
+									"type": "Decimal",
 									"physicalType": "String"
 								},
 								"sink": {
