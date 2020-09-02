@@ -115,13 +115,19 @@
 				"inputs": [
 					{
 						"referenceName": "Azureblobstorage_foods",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"filename": "foods.csv"
+						}
 					}
 				],
 				"outputs": [
 					{
 						"referenceName": "foodsdataset",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"tablename": "foods"
+						}
 					}
 				]
 			}
