@@ -26,31 +26,6 @@
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": [
-			{
-				"name": "First Name",
-				"type": "String"
-			},
-			{
-				"name": "Gender",
-				"type": "String"
-			},
-			{
-				"name": "City",
-				"type": "String"
-			},
-			{
-				"name": "Frequency",
-				"type": "String"
-			},
-			{
-				"name": "Item",
-				"type": "String"
-			},
-			{
-				"name": "Spend",
-				"type": "String"
-			}
-		]
+		"schema": []
 	}
 }
