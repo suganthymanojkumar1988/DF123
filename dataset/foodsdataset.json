@@ -1,0 +1,43 @@
+{
+	"name": "foodsdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "foodssqlServer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "FirstName",
+				"type": "varchar"
+			},
+			{
+				"name": "Gender",
+				"type": "varchar"
+			},
+			{
+				"name": "City",
+				"type": "varchar"
+			},
+			{
+				"name": "Frequency",
+				"type": "varchar"
+			},
+			{
+				"name": "Item",
+				"type": "varchar"
+			},
+			{
+				"name": "Spend",
+				"type": "decimal",
+				"precision": 5,
+				"scale": 2
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "foods"
+		}
+	}
+}
