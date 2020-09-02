@@ -117,7 +117,7 @@
 						"referenceName": "Azureblobstorage_foods",
 						"type": "DatasetReference",
 						"parameters": {
-							"filename": "foods.csv"
+							"filename": "employees.csv"
 						}
 					}
 				],
@@ -126,7 +126,7 @@
 						"referenceName": "foodsdataset",
 						"type": "DatasetReference",
 						"parameters": {
-							"tablename": "foods"
+							"tablename": "employees"
 						}
 					}
 				]
