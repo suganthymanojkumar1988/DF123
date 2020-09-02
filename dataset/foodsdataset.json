@@ -42,7 +42,10 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "foods"
+			"table": {
+				"value": "@dataset().tablename",
+				"type": "Expression"
+			}
 		}
 	}
 }
