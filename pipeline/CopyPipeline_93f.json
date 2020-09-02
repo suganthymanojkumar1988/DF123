@@ -31,6 +31,104 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "FirstName",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "FirstName",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Gender",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Gender",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "StartDate",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "StartDate",
+									"type": "DateTime",
+									"physicalType": "date"
+								}
+							},
+							{
+								"source": {
+									"name": "LastLoginTime",
+									"type": "DateTime",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "LastLoginTime",
+									"type": "TimeSpan",
+									"physicalType": "time"
+								}
+							},
+							{
+								"source": {
+									"name": "Salary",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Salary",
+									"type": "Int32",
+									"physicalType": "int"
+								}
+							},
+							{
+								"source": {
+									"name": "Bonus%",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Bonus_percentage",
+									"type": "Decimal",
+									"physicalType": "decimal"
+								}
+							},
+							{
+								"source": {
+									"name": "SeniorManagement",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "SeniorManagement",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Team",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Team",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							}
+						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": true,
