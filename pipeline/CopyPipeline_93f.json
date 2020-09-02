@@ -31,104 +31,6 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
-						"mappings": [
-							{
-								"source": {
-									"name": "FirstName",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "FirstName",
-									"type": "String",
-									"physicalType": "varchar"
-								}
-							},
-							{
-								"source": {
-									"name": "Gender",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "Gender",
-									"type": "String",
-									"physicalType": "varchar"
-								}
-							},
-							{
-								"source": {
-									"name": "StartDate",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "StartDate",
-									"type": "DateTime",
-									"physicalType": "date"
-								}
-							},
-							{
-								"source": {
-									"name": "LastLoginTime",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "LastLoginTime",
-									"type": "TimeSpan",
-									"physicalType": "time"
-								}
-							},
-							{
-								"source": {
-									"name": "Salary",
-									"type": "Int64",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "Salary",
-									"type": "Int32",
-									"physicalType": "int"
-								}
-							},
-							{
-								"source": {
-									"name": "Bonus%",
-									"type": "Decimal",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "Bonus_percentage",
-									"type": "Decimal",
-									"physicalType": "decimal"
-								}
-							},
-							{
-								"source": {
-									"name": "SeniorManagement",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "SeniorManagement",
-									"type": "String",
-									"physicalType": "varchar"
-								}
-							},
-							{
-								"source": {
-									"name": "Team",
-									"type": "String",
-									"physicalType": "String"
-								},
-								"sink": {
-									"name": "Team",
-									"type": "String",
-									"physicalType": "varchar"
-								}
-							}
-						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": true,
@@ -141,7 +43,7 @@
 						"referenceName": "Azureblobstorage_foods",
 						"type": "DatasetReference",
 						"parameters": {
-							"filename": "employees.csv"
+							"filename": "foods.csv"
 						}
 					}
 				],
@@ -150,7 +52,7 @@
 						"referenceName": "foodsdataset",
 						"type": "DatasetReference",
 						"parameters": {
-							"tablename": "employees"
+							"tablename": "foods"
 						}
 					}
 				]
