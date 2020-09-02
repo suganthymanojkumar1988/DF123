@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy_93f",
+				"name": "Copy data1",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -13,16 +13,7 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [
-					{
-						"name": "Source",
-						"value": "dbo.foods"
-					},
-					{
-						"name": "Destination",
-						"value": "dbo.foods"
-					}
-				],
+				"userProperties": [],
 				"typeProperties": {
 					"source": {
 						"type": "DelimitedTextSource",
@@ -38,54 +29,17 @@
 						"type": "AzureSqlSink"
 					},
 					"enableStaging": false,
-					"validateDataConsistency": false,
 					"translator": {
 						"type": "TabularTranslator",
 						"mappings": [
 							{
 								"source": {
-									"name": "Frequency",
+									"name": "First Name",
 									"type": "String",
-									"physicalType": "varchar"
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "frequency",
-									"type": "String",
-									"physicalType": "varchar"
-								}
-							},
-							{
-								"source": {
-									"name": "Item",
-									"type": "String",
-									"physicalType": "varchar"
-								},
-								"sink": {
-									"name": "item",
-									"type": "String",
-									"physicalType": "varchar"
-								}
-							},
-							{
-								"source": {
-									"name": "Spend",
-									"type": "Decimal",
-									"physicalType": "float"
-								},
-								"sink": {
-									"name": "spend",
-									"type": "Decimal",
-									"physicalType": "decimal"
-								}
-							},
-							{
-								"source": {
 									"name": "FirstName",
-									"type": "String",
-									"physicalType": "varchar"
-								},
-								"sink": {
-									"name": "firstname",
 									"type": "String",
 									"physicalType": "varchar"
 								}
@@ -94,10 +48,10 @@
 								"source": {
 									"name": "Gender",
 									"type": "String",
-									"physicalType": "varchar"
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "gender",
+									"name": "Gender",
 									"type": "String",
 									"physicalType": "varchar"
 								}
@@ -106,12 +60,48 @@
 								"source": {
 									"name": "City",
 									"type": "String",
-									"physicalType": "varchar"
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "city",
+									"name": "City",
 									"type": "String",
 									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Frequency",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Frequency",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Item",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Item",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Spend",
+									"type": "Decimal",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Spend",
+									"type": "Decimal",
+									"physicalType": "decimal"
 								}
 							}
 						],
