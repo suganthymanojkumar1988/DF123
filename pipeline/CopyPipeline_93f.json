@@ -71,7 +71,7 @@
 							{
 								"source": {
 									"name": "LastLoginTime",
-									"type": "DateTime",
+									"type": "TimeSpan",
 									"physicalType": "String"
 								},
 								"sink": {
